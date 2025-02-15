@@ -1,0 +1,39 @@
+# macOS 系統檔案
+.DS_Store
+.Trash
+.localized
+.Spotlight-V100
+.fseventsd
+*.plist
+
+# 終端機歷史檔案與 SSH 設定
+.zsh_history
+.ssh/
+
+# Xcode 專案檔案
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+
+# Core Data 暫存檔案
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# 忽略桌面圖片和中文檔名圖片
+Desktop/*.png
+Desktop/*.jpg
+Desktop/*.jpeg
+
+# macOS 圖片庫
+Pictures/Photos Library.photoslibrary/
+
+# 其他
+*.log
+*.swp
+
+.DS_Store
+.ssh
+*.png
+*.sqlite
